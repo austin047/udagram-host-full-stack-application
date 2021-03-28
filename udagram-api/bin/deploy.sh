@@ -1,1 +1,1 @@
-eb use udagram-server-env && eb deploy
+eb use udagram-server-env && eb deploy && eb status
