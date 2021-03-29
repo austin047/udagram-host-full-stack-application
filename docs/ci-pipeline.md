@@ -21,3 +21,5 @@
   - Build backend
   - Deploy frontend(AWS s3 deployment)
   - Deploy backend(AWS elastic beanstalk deployment)
+
+  
