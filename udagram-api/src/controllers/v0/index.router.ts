@@ -8,7 +8,7 @@ router.use('/feed', FeedRouter);
 router.use('/users', UserRouter);
 
 router.get('/', async (req: Request, res: Response) => {
-  res.send(`NewV0`);
+  res.send(`NewUV0`);
 });
 
 export const IndexRouter: Router = router;
