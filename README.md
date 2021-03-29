@@ -1,15 +1,15 @@
 # Hosting a Fullstack Application
-[![austin047](https://circleci.com/gh/austin047/udagram-host-full-stack-application.svg?style=svg)](https://circleci.com/gh/circleci/circleci-docs)
+[![austin047](https://circleci.com/gh/austin047/udagram-host-full-stack-application.svg?style=svg)](https://github.com/austin047/udagram-host-full-stack-application/blob/main/docs/ci-pipeline.md)
 
 
 This application is a basic ExpressJS and Angular Full-Stack web application.
 
 ## Getting Started
 
-1. Clone this repo locally into the location of your choice.
-1. follow the instructions in the installation step
+1. Clone this repo locally into a location of your choice.
+1. Follow the instructions in the installation steps
 
-The project can run but is missing some information to connect to the database and storage service. These will be setup during the course of the project
+The project can run but is missing some information to connect to the database and storage services. These will be setup during the course of the project
 
 ### Dependencies
 
@@ -22,7 +22,7 @@ The project can run but is missing some information to connect to the database a
 
 - A RDS database running Postgres.
 
-- A S3 bucket for hosting uploaded pictures.
+- An S3 bucket for hosting uploaded pictures.
 
 ```
 
@@ -49,7 +49,7 @@ Provision the necessary AWS services needed for running the application:
 
 #### Testing
 
-This frontend project contains two different test suite: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
+This frontend project contains two different test suits: unit tests and End-To-End tests(e2e). Follow these steps to run the tests.
 
 1. `npm run test`
 1. `npm run e2e`
@@ -64,8 +64,8 @@ The e2e tests are using Protractor and Jasmine.
 
 
 ### Production 
-- Front end code can be foung [here](http://udagram-host.s3-website-us-east-1.amazonaws.com/home)
-- Backend Server can be found [here](http://udagram-host.s3-website-us-east-1.amazonaws.com/home)
+- Front end code can be found [here](http://udagram-host.s3-website-us-east-1.amazonaws.com)
+- Backend Server can be found [here](http://udagram-server-env.us-east-1.elasticbeanstalk.com)
 
 There are no Unit test on the back-end
 
