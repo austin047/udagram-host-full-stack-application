@@ -13,8 +13,8 @@ export const s3 = new AWS.S3({
   secretAccessKey: config.aws_secret
 });
 
-console.log("Games")
-console.log(s3.listBuckets())
+// console.log("Games")
+// console.log(s3.listBuckets())
 
 
 
